@@ -1,0 +1,53 @@
+.cards img{
+    border:5px solid #f1f1f1;
+    box-shadow: 0 3px 6px rgba(0,0,0,.09), 0 3px 6px rgba(0,0,0,.13);
+}
+
+.cardContainer{
+  padding:30px;
+}
+
+
+.col{
+    padding:0;
+}
+
+
+.cards{
+  padding:0px;
+}
+
+.card{
+  margin-bottom:15px;
+}
+
+.view{
+  margin-right:6px;
+}
+
+.view, .save, .delete{
+  margin-top:5px;
+}
+
+.cols{
+  padding-bottom:10px;
+}
+
+
+
+@media (max-width: 576px){
+  .cards img{
+    max-width:70%;
+    margin:0px auto;
+    text-align:center;
+    margin-bottom:20px;
+  }
+  }
+
+
+  @media (min-width: 992px){
+    .cols{
+      padding:0px;
+    }
+    }
+
