@@ -6,8 +6,9 @@ function Header() {
   return (
     <div>
     <div className="jumbotron text-center">
-      <h1>Google Book Search!</h1>
-      <h4>Search for a book and save it for later!</h4>
+      <h1>Google Book Search</h1>
+      <h4>You can search for a book using the search bar</h4>
+      <h4>Or click the save button to save and review for later</h4>
     </div>
     </div>
   );

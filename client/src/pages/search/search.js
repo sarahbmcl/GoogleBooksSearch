@@ -116,7 +116,7 @@ class Search extends Component {
                 </Card.Header>
                 <Card.Body style={{ background: "#f2f2f2" }}>
                   {!this.state.books.length ? (
-                    <h2 className="text-center">Search for a Book!</h2>
+                    <h5 className="text-center">Book search will appear here</h5>
                   ) : (
                       <CardList
                         books={this.state.books}
