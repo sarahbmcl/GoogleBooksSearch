@@ -26,7 +26,7 @@ mongoose.Promise = Promise;
 var MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/googlebooks';
 // connect to the MongoDB
 mongoose.connect(MONGODB_URI, { 
-  // useUnifiedTopology: true,
+  useUnifiedTopology: true,
   useNewUrlParser: true })
 .then(function(){
     console.log('Successfully connected to Mongo database');
