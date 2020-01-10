@@ -25,7 +25,9 @@ mongoose.Promise = Promise;
 // if deployed, use the deployed database. else, use the local database.
 var MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/googlebooks';
 // connect to the MongoDB
-mongoose.connect(MONGODB_URI, { useNewUrlParser: true })
+mongoose.connect(MONGODB_URI, { 
+  // useUnifiedTopology: true,
+  useNewUrlParser: true })
 .then(function(){
     console.log('Successfully connected to Mongo database');
 })
