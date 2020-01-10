@@ -23,7 +23,7 @@ app.use(routes);
 // set up mongoose to leverage built-in JavaScript ES6 Promises
 mongoose.Promise = Promise;
 // if deployed, use the deployed database. else, use the local database.
-var MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/googlebooks';
+var MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/GoogleBooksSearch';
 // connect to the MongoDB
 mongoose.connect(MONGODB_URI, { 
   useUnifiedTopology: true,

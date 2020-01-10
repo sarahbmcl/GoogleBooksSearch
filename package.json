@@ -1,8 +1,8 @@
 {
   "name": "mern",
-  "homepage": "https://reneehickman.github.io/react-google-books-search",
+  "homepage": "https://sarahbmcl.github.io/GoogleBooksSearch",
   "version": "1.0.0",
-  "description": "react-google-books-search",
+  "description": "GoogleBookSearch",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -17,12 +17,11 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.2",
-    "gh-pages": "^2.2.0",
     "nodemon": "^1.19.4"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reneehickman/react-google-books-search.git"
+    "url": "git+https://github.com/sarahbmcl/GoogleBookSearch.git"
   },
   "engines": {
     "node": "10.15.1",
